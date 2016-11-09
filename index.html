@@ -6,107 +6,45 @@
 		<link rel="stylesheet" type="text/css" href="ispypi.css">
 		<link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<SCRIPT TYPE="text/javascript">
-
-  }
-</SCRIPT>
-
-
-	</head>
-	<body>
-
-	<center>
-		
- <head>
-
-  <div id='about_blue' class='color-info'>
-
-<style>
-body {margin:0;}
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #381E3A;
-  font-family: 'Vidaloka', serif;
-}
-
-ul.topnav li {float: right;}
-
-ul.topnav li a {
-  display: inline-block;
-  color: #F4836A;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  transition: 0.3s;
-  font-size: 17px;
-}
-
-ul.topnav li a:hover {background-color: #CBE9E0;}
-
-ul.topnav li.icon {display: none;}
-
-@media screen and (max-width:680px) {
-  ul.topnav li:not(:first-child) {display: none;}
-  ul.topnav li.icon {
-    float: right;
-    display: inline-block;
-  }
-}
-
-@media screen and (max-width:680px) {
-  ul.topnav.responsive {position: relative;}
-  ul.topnav.responsive li.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  ul.topnav.responsive li {
-    float: none;
-    display: inline;
-  }
-  ul.topnav.responsive li a {
-    display: block;
-    text-align: left;
-  }
-}
-</style>
-</head>
-<body>
-
-<ul class="topnav" id="myTopnav">
-  
-
-    <li><a class="active"  href="#Homepage1">Change city</a></li>
-    <li><a href="#ContactUs">Contact Us</a></li>
-    <li><a href="#work">Work</a></li>
- <li><a href="#entertainment">Entertainment</a></li>
-  <li><a href="#style">Style</a></li>
-  <li><a href="#food">Food</a></li>
-  
-    <li class="icon">
-    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
-  </li>
-</ul>
-
-
-<script>
-function myFunction() {
+	
+    <script>
+    function myFunction() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {
         x.className = "topnav";
     }
-}
+    }
+
 </script>
-	  
-      
 
-       <img src="pi1.png" alt="pi1">
+	</head>
 
+
+	<body>
+
+	<center>
+
+  <div id='about_blue' class='color-info'>
+
+    
+    <ul class="topnav" id="myTopnav">
+  
+
+    <li><a class="active"  href="#Homepage1">Change city</a></li>
+    <li><a href="#ContactUs">Contact Us</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#entertainment">Entertainment</a></li>
+    <li><a href="#style">Style</a></li>
+    <li><a href="#food">Food</a></li>
+  
+    <li class="icon">
+    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+    </li>
+    </ul>
+
+      <img class="logo" src="pi1.png" alt="pi1">
 
 		<h2>Alternative hangouts for women</h2>
 			<h2>Written by you, for you!</h2>
@@ -120,9 +58,6 @@ function myFunction() {
 
 	<h3>Latest articles...</h3>
 
-
-
-
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
   <!-- Indicators -->
@@ -134,11 +69,12 @@ function myFunction() {
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
+  
     <div class="item active">
       <img src="work.jpg" alt="work">
       
       <div class="carousel-caption">
-        <h3>Top 10 Places to Work in London</h3>
+        <h3><a href="workpost.html">Top 10 Places to Work in London</a></h3>
       </div>
 
     </div>
@@ -147,7 +83,7 @@ function myFunction() {
       <img src="nhm.jpeg" alt="nhm">
 
       <div class="carousel-caption">
-        <h3>Top 10 Cool Museums in London</h3>
+        <h3><a href="HYPERLINK">Top 10 Cool Museums in London</a></h3>
 
       </div>
     </div>
@@ -156,7 +92,7 @@ function myFunction() {
       <img src="street.jpg" alt="street">
 
       <div class="carousel-caption">
-        <h3>10 Exciting  New Place to Eat in London</h3>
+        <h3><a href="HYPERLINK">10 Exciting  New Place to Eat in London</a></h3>
 
       </div>
     </div>
@@ -173,8 +109,9 @@ function myFunction() {
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-
+  
 </div>
+
 
 
 </body>
