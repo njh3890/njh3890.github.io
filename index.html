@@ -3,9 +3,10 @@
 	<head>
 		
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="bootstrap/js/bootstrap.min.js">
-		<link rel="stylesheet" type="text/css" href="ispypi.css">
-		<link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
+    <script src="jquery/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="ispypi.css">
+    <link href="https://fonts.googleapis.com/css?family=Vidaloka" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
     <script>
@@ -114,19 +115,21 @@
 
 <script>
 // Activate Carousel
-$("#myCarousel").carousel();
+$("#carousel-example-generic").carousel();
 
 // Enable Carousel Indicators
 $(".item").click(function(){
-    $("#myCarousel").carousel(1);
+    $("#carousel-example-generic").carousel(1);
 });
 
 // Enable Carousel Controls
 $(".left").click(function(){
-    $("#myCarousel").carousel("prev");
+    $("#carousel-example-generic").carousel("prev");
+});
+
+$(".right").click(function(){
+    $("#carousel-example-generic").carousel("next");
 });
 </script>
-
-
 </body>
 </html>
