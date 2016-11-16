@@ -1,9 +1,9 @@
 h2 {
 
-	color:#F4836A;
-	size:18px;
-	background: #381E3A;
-   	float:center;
+   color:#F4836A;
+   size:18px;
+   background: #381E3A;
+    float:center;
     margin-top:0px; 
     font-family: 'Vidaloka', serif;
     padding-top:10px;
@@ -11,10 +11,10 @@ h2 {
 
 h3 {
 
-	color:#5E4545;
-	size:14px;
-	font-family: 'Vidaloka', serif;
-	margin-left: 20px;
+  color:#5E4545;
+  size:14px;
+  font-family: 'Vidaloka', serif;
+  margin-left: 20px;
 }
 
 p{
@@ -24,55 +24,53 @@ p{
 	font-family: 'Vidaloka', serif;
 }
 
-
-
 body {
-    background-color: #CBE9E0;
-   
-}
 
+  background-color:#CBE9E0; 
+}
 
 .logo{
 
 width:250px;
 height: 250px;
-
-
 }
 
 div.carousel-inner{
 
-width:auto;
-height: auto;
-float: center;
-margin-right: 200px;
-margin-left: 200px; 
-margin-top:50px;
-margin-bottom: 50px;
-
+  width:auto;
+  height: auto;
+  float: center;
+  margin-right: 150px;
+  margin-left: 150px; 
+  margin-top:50px;
+  margin-bottom: 50px;
 }
 
-div.color-info{
+
+div.color-info {
 	
 	background-color: #381E3A;
 	padding-bottom: 40px;
 	padding-top: 5px;
-
 }
 
-    body {margin:0;}
-    ul.topnav {
-     list-style-type: none;
-     margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #381E3A;
-      font-family: 'Vidaloka', serif;
-      }
+ul.topnav {
+   
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #381E3A;
+  font-family: 'Vidaloka', serif;
+}
 
-ul.topnav li {float: right;}
+ul.topnav li {
+
+  float: right;
+}
 
 ul.topnav li a {
+
   display: inline-block;
   color: #F4836A;
   text-align: center;
@@ -81,6 +79,7 @@ ul.topnav li a {
   transition: 0.3s;
   font-size: 17px;
 }
+
 
 ul.topnav li a:hover {background-color: #CBE9E0;}
 
@@ -95,18 +94,22 @@ ul.topnav li.icon {display: none;}
 }
 
 @media screen and (max-width:680px) {
+
   ul.topnav.responsive {position: relative;}
+
   ul.topnav.responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
-  }
+    }
+
   ul.topnav.responsive li {
     float: none;
     display: inline;
-  }
+    }
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
-  }
+    }
+
 }
